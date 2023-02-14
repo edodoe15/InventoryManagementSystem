@@ -1,0 +1,34 @@
+.dobavljac-detalji-sadrzaj {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    gap: 25px;
+}
+
+.dobavljac-detalji-sadrzaj-podaci {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.dobavljac-detalji-sadrzaj-podatak {
+    display: flex;
+}
+
+.dobavljac-detalji-sadrzaj-podatak-naslov {
+    font-weight: bold;
+    width: 150px;
+}
+
+.dobavljac-detalji-sadrzaj-naslov {
+    font-size: 30px;
+}
+
+.dobavljac-detalji-footer {
+    padding-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+

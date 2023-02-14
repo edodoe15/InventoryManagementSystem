@@ -1,0 +1,10 @@
+.korisnik-brisanje-sadrzaj {
+    flex-grow: 1;
+}
+
+.korisnik-brisanje-footer {
+    padding-top: 25px;
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+}

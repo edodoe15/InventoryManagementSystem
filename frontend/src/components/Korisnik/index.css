@@ -1,0 +1,42 @@
+.korisnik {
+    padding: 15px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    font-size: 14px;
+    height: 75px;
+}
+
+.korisnik-moj-profil {
+    background-color: #e5e5e5;
+}
+
+.korisnik-moj-profil-tekst {
+    color: grey;
+}
+
+.korisnik-uloga {
+    padding-right: 15px;
+    border-right: 2px solid grey;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    color: grey;
+    width: 300px;
+    font-weight: bold;
+}
+
+.korisnik-sadrzaj {
+    flex-grow: 1;
+    height: 100%;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.korisnik-akcije {
+    display: flex;
+}

@@ -1,0 +1,28 @@
+.korisnik-dodaj-uredi-naslov {
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+
+.korisnik-dodaj-uredi-napomena {
+    color: grey;
+    font-size: 12px;
+}
+
+.korisnik-dodaj-uredi-sadrzaj {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.korisnik-dodaj-uredi-sadrzaj > * {
+    width: 100%;
+}
+
+.korisnik-dodaj-uredi-footer {
+    padding-top: 25px;
+    display: flex;
+    justify-content: end;
+    gap: 15px;
+}
