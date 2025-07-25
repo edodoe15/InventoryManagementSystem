@@ -13,9 +13,4 @@ A MERN stack application to manage inventory levels, product details, and order 
 - Inventory search and filter
 - Real-time stock updates
 
-## Getting Started
-1. Clone repo
-2. Run `npm install` in both `client/` and `server/` folders
-3. Set up `.env` for DB config and JWT secret
-4. Run backend: `npm start` in `server/`
-5. Run frontend: `npm start` in `client/`
+
