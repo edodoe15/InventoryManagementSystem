@@ -1,5 +1,21 @@
-# InventoryManagementSystem
+# Warehouse Inventory Management System
 
-Project made using React, Node.js, Express using MongoDB database. In order to access the application, 
-admin and employee need to log in - admin adds employees to the database and manages them, 
-while both admin and employee can add suppliers and raw materials to the database.
+A MERN stack application to manage inventory levels, product details, and order tracking.
+
+## 🔧 Tech Stack
+- MongoDB, Express.js, React, Node.js
+- Mongoose
+- Bootstrap (for styling)
+
+## 📌 Features
+- CRUD operations for inventory items
+- User authentication (JWT)
+- Inventory search and filter
+- Real-time stock updates
+
+## 🚀 Getting Started
+1. Clone repo
+2. Run `npm install` in both `client/` and `server/` folders
+3. Set up `.env` for DB config and JWT secret
+4. Run backend: `npm start` in `server/`
+5. Run frontend: `npm start` in `client/`
